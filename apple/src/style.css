@@ -58,3 +58,7 @@ body {
 .line {
     border-bottom: 1px solid #333;
 }
+
+.navbar a {
+    cursor: pointer; 
+}

@@ -29,10 +29,12 @@ const App = () => {
       <div className="absolute flex flex-col items-center text-white top-32 left-1/2 -translate-x-1/2">
         <h3 className=" masked text-7xl tracking-tighter font-[700]">macbook pro.</h3>
         <h5>Oh so Pro!</h5>
-        <p className="text-center w-3/4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore neque odit animi.</p>
+        <p className="text-center w-3/4">
+          The MacBook Pro delivers powerful performance, a stunning display, and all-day battery life-perfect for professionals on the go.
+        </p>
       </div>
 
-      <Canvas camera={{ fov: 12, position: [0, -10, 220] }}>
+      <Canvas camera={{ fov: 18, position: [0, -16, 220] }}>
         <OrbitControls />
         <Environment files={[
           'https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/studio_small_09_4k.exr'
